@@ -1,0 +1,6 @@
+framework module Pods_BeautyMNL_June_BeautyMNL_JuneUITests {
+  umbrella header "Pods-BeautyMNL-June-BeautyMNL-JuneUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

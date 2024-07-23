@@ -1,0 +1,1044 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72E8DA19BA31C5BBE13B0C56 /* Pods_BeautyMNL_June.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26F43E9334E39C493E12576 /* Pods_BeautyMNL_June.framework */; };
+		E06AA9F4F98987FAB2E4120E /* Pods_BeautyMNL_June_BeautyMNL_JuneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FD883B9FF067B70D674CB5 /* Pods_BeautyMNL_June_BeautyMNL_JuneUITests.framework */; };
+		E658175402C674AFA3D1343A /* Pods_BeautyMNL_JuneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50947A9A50B7C7F17BE4F47B /* Pods_BeautyMNL_JuneTests.framework */; };
+		EF6FD0DD2C4FF04300E68EBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD0DC2C4FF04300E68EBF /* AppDelegate.swift */; };
+		EF6FD0DF2C4FF04300E68EBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD0DE2C4FF04300E68EBF /* SceneDelegate.swift */; };
+		EF6FD0E12C4FF04300E68EBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD0E02C4FF04300E68EBF /* ViewController.swift */; };
+		EF6FD0E42C4FF04300E68EBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6FD0E22C4FF04300E68EBF /* Main.storyboard */; };
+		EF6FD0E62C4FF04500E68EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6FD0E52C4FF04500E68EBF /* Assets.xcassets */; };
+		EF6FD0E92C4FF04500E68EBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6FD0E72C4FF04500E68EBF /* LaunchScreen.storyboard */; };
+		EF6FD0F42C4FF04500E68EBF /* BeautyMNL_JuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD0F32C4FF04500E68EBF /* BeautyMNL_JuneTests.swift */; };
+		EF6FD0FE2C4FF04500E68EBF /* BeautyMNL_JuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD0FD2C4FF04500E68EBF /* BeautyMNL_JuneUITests.swift */; };
+		EF6FD1002C4FF04500E68EBF /* BeautyMNL_JuneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD0FF2C4FF04500E68EBF /* BeautyMNL_JuneUITestsLaunchTests.swift */; };
+		EF6FD10E2C4FF52300E68EBF /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD10D2C4FF52300E68EBF /* AppColor.swift */; };
+		EF6FD1112C4FF59D00E68EBF /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1102C4FF59D00E68EBF /* UIColor.swift */; };
+		EF6FD1132C4FF7C000E68EBF /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1122C4FF7C000E68EBF /* AppImage.swift */; };
+		EF6FD1152C4FFB5600E68EBF /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1142C4FFB5600E68EBF /* Array.swift */; };
+		EF6FD1172C4FFCBF00E68EBF /* UILabel+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1162C4FFCBF00E68EBF /* UILabel+Font.swift */; };
+		EF6FD1192C4FFD5F00E68EBF /* NotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1182C4FFD5F00E68EBF /* NotificationBanner.swift */; };
+		EF6FD11C2C4FFDD000E68EBF /* StackViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD11B2C4FFDD000E68EBF /* StackViewBuilder.swift */; };
+		EF6FD11E2C4FFDF700E68EBF /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD11D2C4FFDF700E68EBF /* UIView+Layout.swift */; };
+		EF6FD1202C4FFE1900E68EBF /* MetricsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD11F2C4FFE1900E68EBF /* MetricsProvider.swift */; };
+		EF6FD1232C4FFE4500E68EBF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1222C4FFE4500E68EBF /* Product.swift */; };
+		EF6FD1252C4FFE6700E68EBF /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1242C4FFE6700E68EBF /* Sale.swift */; };
+		EF6FD1272C4FFE7500E68EBF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1262C4FFE7500E68EBF /* Category.swift */; };
+		EF6FD1292C4FFE7F00E68EBF /* MockProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1282C4FFE7F00E68EBF /* MockProvider.swift */; };
+		EF6FD14C2C50017C00E68EBF /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD12C2C50017C00E68EBF /* RatingView.swift */; };
+		EF6FD14D2C50017C00E68EBF /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD12E2C50017C00E68EBF /* PrimaryButton.swift */; };
+		EF6FD14E2C50017C00E68EBF /* CalloutCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1312C50017C00E68EBF /* CalloutCellViewModel.swift */; };
+		EF6FD14F2C50017C00E68EBF /* CalloutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1322C50017C00E68EBF /* CalloutCell.swift */; };
+		EF6FD1502C50017C00E68EBF /* CalloutListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1332C50017C00E68EBF /* CalloutListViewModel.swift */; };
+		EF6FD1512C50017C00E68EBF /* CalloutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1342C50017C00E68EBF /* CalloutList.swift */; };
+		EF6FD1522C50017C00E68EBF /* HorizontalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1362C50017C00E68EBF /* HorizontalCollectionView.swift */; };
+		EF6FD1532C50017C00E68EBF /* PageIndicatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1382C50017C00E68EBF /* PageIndicatorViewModel.swift */; };
+		EF6FD1542C50017C00E68EBF /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1392C50017C00E68EBF /* PageIndicator.swift */; };
+		EF6FD1552C50017C00E68EBF /* MediumBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD13B2C50017C00E68EBF /* MediumBannerView.swift */; };
+		EF6FD1562C50017C00E68EBF /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD13D2C50017C00E68EBF /* Carousel.swift */; };
+		EF6FD1572C50017C00E68EBF /* MediumItemCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD13F2C50017C00E68EBF /* MediumItemCellViewModel.swift */; };
+		EF6FD1582C50017C00E68EBF /* MediumItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1402C50017C00E68EBF /* MediumItemCell.swift */; };
+		EF6FD1592C50017C00E68EBF /* SmallItemCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1422C50017C00E68EBF /* SmallItemCarousel.swift */; };
+		EF6FD15A2C50017C00E68EBF /* SmallItemsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1432C50017C00E68EBF /* SmallItemsGridView.swift */; };
+		EF6FD15B2C50017C00E68EBF /* MediumItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1452C50017C00E68EBF /* MediumItemList.swift */; };
+		EF6FD15C2C50017C00E68EBF /* MediumItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1462C50017C00E68EBF /* MediumItemListViewModel.swift */; };
+		EF6FD15D2C50017C00E68EBF /* SmallItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD1492C50017C00E68EBF /* SmallItemView.swift */; };
+		EF6FD15E2C50017C00E68EBF /* SmallItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD14A2C50017C00E68EBF /* SmallItemViewModel.swift */; };
+		EF6FD15F2C50017C00E68EBF /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FD14B2C50017C00E68EBF /* ProductViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF6FD0F02C4FF04500E68EBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6FD0D12C4FF04300E68EBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6FD0D82C4FF04300E68EBF;
+			remoteInfo = "BeautyMNL-June";
+		};
+		EF6FD0FA2C4FF04500E68EBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6FD0D12C4FF04300E68EBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6FD0D82C4FF04300E68EBF;
+			remoteInfo = "BeautyMNL-June";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C7BE6E0E1BB95AFE0CE3991 /* Pods-BeautyMNL-JuneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyMNL-JuneTests.release.xcconfig"; path = "Target Support Files/Pods-BeautyMNL-JuneTests/Pods-BeautyMNL-JuneTests.release.xcconfig"; sourceTree = "<group>"; };
+		2830C097B625DBEFE0284954 /* Pods-BeautyMNL-June.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyMNL-June.release.xcconfig"; path = "Target Support Files/Pods-BeautyMNL-June/Pods-BeautyMNL-June.release.xcconfig"; sourceTree = "<group>"; };
+		50947A9A50B7C7F17BE4F47B /* Pods_BeautyMNL_JuneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautyMNL_JuneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68934E38AAA9292837FA438C /* Pods-BeautyMNL-June.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyMNL-June.debug.xcconfig"; path = "Target Support Files/Pods-BeautyMNL-June/Pods-BeautyMNL-June.debug.xcconfig"; sourceTree = "<group>"; };
+		867FA92F7CEE8DC0984D5ADD /* Pods-BeautyMNL-JuneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyMNL-JuneTests.debug.xcconfig"; path = "Target Support Files/Pods-BeautyMNL-JuneTests/Pods-BeautyMNL-JuneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2FD883B9FF067B70D674CB5 /* Pods_BeautyMNL_June_BeautyMNL_JuneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautyMNL_June_BeautyMNL_JuneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26F43E9334E39C493E12576 /* Pods_BeautyMNL_June.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautyMNL_June.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03D20126F664957B0EF4458 /* Pods-BeautyMNL-June-BeautyMNL-JuneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyMNL-June-BeautyMNL-JuneUITests.release.xcconfig"; path = "Target Support Files/Pods-BeautyMNL-June-BeautyMNL-JuneUITests/Pods-BeautyMNL-June-BeautyMNL-JuneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF6FD0D92C4FF04300E68EBF /* BeautyMNL-June.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeautyMNL-June.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6FD0DC2C4FF04300E68EBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF6FD0DE2C4FF04300E68EBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF6FD0E02C4FF04300E68EBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF6FD0E32C4FF04300E68EBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF6FD0E52C4FF04500E68EBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6FD0E82C4FF04500E68EBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF6FD0EA2C4FF04500E68EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6FD0EF2C4FF04500E68EBF /* BeautyMNL-JuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeautyMNL-JuneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6FD0F32C4FF04500E68EBF /* BeautyMNL_JuneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyMNL_JuneTests.swift; sourceTree = "<group>"; };
+		EF6FD0F92C4FF04500E68EBF /* BeautyMNL-JuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeautyMNL-JuneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6FD0FD2C4FF04500E68EBF /* BeautyMNL_JuneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyMNL_JuneUITests.swift; sourceTree = "<group>"; };
+		EF6FD0FF2C4FF04500E68EBF /* BeautyMNL_JuneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyMNL_JuneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF6FD10D2C4FF52300E68EBF /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		EF6FD1102C4FF59D00E68EBF /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		EF6FD1122C4FF7C000E68EBF /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
+		EF6FD1142C4FFB5600E68EBF /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		EF6FD1162C4FFCBF00E68EBF /* UILabel+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Font.swift"; sourceTree = "<group>"; };
+		EF6FD1182C4FFD5F00E68EBF /* NotificationBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBanner.swift; sourceTree = "<group>"; };
+		EF6FD11B2C4FFDD000E68EBF /* StackViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewBuilder.swift; sourceTree = "<group>"; };
+		EF6FD11D2C4FFDF700E68EBF /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		EF6FD11F2C4FFE1900E68EBF /* MetricsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsProvider.swift; sourceTree = "<group>"; };
+		EF6FD1222C4FFE4500E68EBF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EF6FD1242C4FFE6700E68EBF /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		EF6FD1262C4FFE7500E68EBF /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		EF6FD1282C4FFE7F00E68EBF /* MockProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProvider.swift; sourceTree = "<group>"; };
+		EF6FD12C2C50017C00E68EBF /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		EF6FD12E2C50017C00E68EBF /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		EF6FD1312C50017C00E68EBF /* CalloutCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalloutCellViewModel.swift; sourceTree = "<group>"; };
+		EF6FD1322C50017C00E68EBF /* CalloutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalloutCell.swift; sourceTree = "<group>"; };
+		EF6FD1332C50017C00E68EBF /* CalloutListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalloutListViewModel.swift; sourceTree = "<group>"; };
+		EF6FD1342C50017C00E68EBF /* CalloutList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalloutList.swift; sourceTree = "<group>"; };
+		EF6FD1362C50017C00E68EBF /* HorizontalCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionView.swift; sourceTree = "<group>"; };
+		EF6FD1382C50017C00E68EBF /* PageIndicatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageIndicatorViewModel.swift; sourceTree = "<group>"; };
+		EF6FD1392C50017C00E68EBF /* PageIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
+		EF6FD13B2C50017C00E68EBF /* MediumBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumBannerView.swift; sourceTree = "<group>"; };
+		EF6FD13D2C50017C00E68EBF /* Carousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		EF6FD13F2C50017C00E68EBF /* MediumItemCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumItemCellViewModel.swift; sourceTree = "<group>"; };
+		EF6FD1402C50017C00E68EBF /* MediumItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumItemCell.swift; sourceTree = "<group>"; };
+		EF6FD1422C50017C00E68EBF /* SmallItemCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallItemCarousel.swift; sourceTree = "<group>"; };
+		EF6FD1432C50017C00E68EBF /* SmallItemsGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallItemsGridView.swift; sourceTree = "<group>"; };
+		EF6FD1452C50017C00E68EBF /* MediumItemList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumItemList.swift; sourceTree = "<group>"; };
+		EF6FD1462C50017C00E68EBF /* MediumItemListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumItemListViewModel.swift; sourceTree = "<group>"; };
+		EF6FD1492C50017C00E68EBF /* SmallItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallItemView.swift; sourceTree = "<group>"; };
+		EF6FD14A2C50017C00E68EBF /* SmallItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallItemViewModel.swift; sourceTree = "<group>"; };
+		EF6FD14B2C50017C00E68EBF /* ProductViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		F39D0E41BA6E78F822CD57F6 /* Pods-BeautyMNL-June-BeautyMNL-JuneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyMNL-June-BeautyMNL-JuneUITests.debug.xcconfig"; path = "Target Support Files/Pods-BeautyMNL-June-BeautyMNL-JuneUITests/Pods-BeautyMNL-June-BeautyMNL-JuneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF6FD0D62C4FF04300E68EBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E8DA19BA31C5BBE13B0C56 /* Pods_BeautyMNL_June.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6FD0EC2C4FF04500E68EBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E658175402C674AFA3D1343A /* Pods_BeautyMNL_JuneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6FD0F62C4FF04500E68EBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06AA9F4F98987FAB2E4120E /* Pods_BeautyMNL_June_BeautyMNL_JuneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71757D6EC67F616AEC483136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D26F43E9334E39C493E12576 /* Pods_BeautyMNL_June.framework */,
+				C2FD883B9FF067B70D674CB5 /* Pods_BeautyMNL_June_BeautyMNL_JuneUITests.framework */,
+				50947A9A50B7C7F17BE4F47B /* Pods_BeautyMNL_JuneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EF7D3409B7854FF616CD9A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68934E38AAA9292837FA438C /* Pods-BeautyMNL-June.debug.xcconfig */,
+				2830C097B625DBEFE0284954 /* Pods-BeautyMNL-June.release.xcconfig */,
+				F39D0E41BA6E78F822CD57F6 /* Pods-BeautyMNL-June-BeautyMNL-JuneUITests.debug.xcconfig */,
+				E03D20126F664957B0EF4458 /* Pods-BeautyMNL-June-BeautyMNL-JuneUITests.release.xcconfig */,
+				867FA92F7CEE8DC0984D5ADD /* Pods-BeautyMNL-JuneTests.debug.xcconfig */,
+				1C7BE6E0E1BB95AFE0CE3991 /* Pods-BeautyMNL-JuneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF6FD0D02C4FF04300E68EBF = {
+			isa = PBXGroup;
+			children = (
+				EF6FD0DB2C4FF04300E68EBF /* BeautyMNL-June */,
+				EF6FD0F22C4FF04500E68EBF /* BeautyMNL-JuneTests */,
+				EF6FD0FC2C4FF04500E68EBF /* BeautyMNL-JuneUITests */,
+				EF6FD0DA2C4FF04300E68EBF /* Products */,
+				7EF7D3409B7854FF616CD9A1 /* Pods */,
+				71757D6EC67F616AEC483136 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6FD0DA2C4FF04300E68EBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD0D92C4FF04300E68EBF /* BeautyMNL-June.app */,
+				EF6FD0EF2C4FF04500E68EBF /* BeautyMNL-JuneTests.xctest */,
+				EF6FD0F92C4FF04500E68EBF /* BeautyMNL-JuneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6FD0DB2C4FF04300E68EBF /* BeautyMNL-June */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD12A2C50017C00E68EBF /* UIComponents */,
+				EF6FD1212C4FFE3900E68EBF /* Model */,
+				EF6FD11A2C4FFDBF00E68EBF /* Utils */,
+				EF6FD10F2C4FF55E00E68EBF /* Extension */,
+				EF6FD10C2C4FF51100E68EBF /* Custom */,
+				EF6FD0DC2C4FF04300E68EBF /* AppDelegate.swift */,
+				EF6FD0DE2C4FF04300E68EBF /* SceneDelegate.swift */,
+				EF6FD0E02C4FF04300E68EBF /* ViewController.swift */,
+				EF6FD0E22C4FF04300E68EBF /* Main.storyboard */,
+				EF6FD0E52C4FF04500E68EBF /* Assets.xcassets */,
+				EF6FD0E72C4FF04500E68EBF /* LaunchScreen.storyboard */,
+				EF6FD0EA2C4FF04500E68EBF /* Info.plist */,
+			);
+			path = "BeautyMNL-June";
+			sourceTree = "<group>";
+		};
+		EF6FD0F22C4FF04500E68EBF /* BeautyMNL-JuneTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD0F32C4FF04500E68EBF /* BeautyMNL_JuneTests.swift */,
+			);
+			path = "BeautyMNL-JuneTests";
+			sourceTree = "<group>";
+		};
+		EF6FD0FC2C4FF04500E68EBF /* BeautyMNL-JuneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD0FD2C4FF04500E68EBF /* BeautyMNL_JuneUITests.swift */,
+				EF6FD0FF2C4FF04500E68EBF /* BeautyMNL_JuneUITestsLaunchTests.swift */,
+			);
+			path = "BeautyMNL-JuneUITests";
+			sourceTree = "<group>";
+		};
+		EF6FD10C2C4FF51100E68EBF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD10D2C4FF52300E68EBF /* AppColor.swift */,
+				EF6FD1122C4FF7C000E68EBF /* AppImage.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		EF6FD10F2C4FF55E00E68EBF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD1102C4FF59D00E68EBF /* UIColor.swift */,
+				EF6FD1142C4FFB5600E68EBF /* Array.swift */,
+				EF6FD1162C4FFCBF00E68EBF /* UILabel+Font.swift */,
+				EF6FD1182C4FFD5F00E68EBF /* NotificationBanner.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EF6FD11A2C4FFDBF00E68EBF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD11B2C4FFDD000E68EBF /* StackViewBuilder.swift */,
+				EF6FD11D2C4FFDF700E68EBF /* UIView+Layout.swift */,
+				EF6FD11F2C4FFE1900E68EBF /* MetricsProvider.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EF6FD1212C4FFE3900E68EBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD1222C4FFE4500E68EBF /* Product.swift */,
+				EF6FD1242C4FFE6700E68EBF /* Sale.swift */,
+				EF6FD1262C4FFE7500E68EBF /* Category.swift */,
+				EF6FD1282C4FFE7F00E68EBF /* MockProvider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF6FD12A2C50017C00E68EBF /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD12B2C50017C00E68EBF /* Rating */,
+				EF6FD12D2C50017C00E68EBF /* Buttons */,
+				EF6FD12F2C50017C00E68EBF /* CalloutList */,
+				EF6FD1352C50017C00E68EBF /* GenericList */,
+				EF6FD1372C50017C00E68EBF /* PageIndicator */,
+				EF6FD13A2C50017C00E68EBF /* MediumBanner */,
+				EF6FD13C2C50017C00E68EBF /* Carousel */,
+				EF6FD13E2C50017C00E68EBF /* MediumItem */,
+				EF6FD1412C50017C00E68EBF /* SmallItemsCarousel */,
+				EF6FD1442C50017C00E68EBF /* ProductList */,
+				EF6FD1472C50017C00E68EBF /* Items */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		EF6FD12B2C50017C00E68EBF /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD12C2C50017C00E68EBF /* RatingView.swift */,
+			);
+			path = Rating;
+			sourceTree = "<group>";
+		};
+		EF6FD12D2C50017C00E68EBF /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD12E2C50017C00E68EBF /* PrimaryButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		EF6FD12F2C50017C00E68EBF /* CalloutList */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD1302C50017C00E68EBF /* CalloutCell */,
+				EF6FD1332C50017C00E68EBF /* CalloutListViewModel.swift */,
+				EF6FD1342C50017C00E68EBF /* CalloutList.swift */,
+			);
+			path = CalloutList;
+			sourceTree = "<group>";
+		};
+		EF6FD1302C50017C00E68EBF /* CalloutCell */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD1312C50017C00E68EBF /* CalloutCellViewModel.swift */,
+				EF6FD1322C50017C00E68EBF /* CalloutCell.swift */,
+			);
+			path = CalloutCell;
+			sourceTree = "<group>";
+		};
+		EF6FD1352C50017C00E68EBF /* GenericList */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD1362C50017C00E68EBF /* HorizontalCollectionView.swift */,
+			);
+			path = GenericList;
+			sourceTree = "<group>";
+		};
+		EF6FD1372C50017C00E68EBF /* PageIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD1382C50017C00E68EBF /* PageIndicatorViewModel.swift */,
+				EF6FD1392C50017C00E68EBF /* PageIndicator.swift */,
+			);
+			path = PageIndicator;
+			sourceTree = "<group>";
+		};
+		EF6FD13A2C50017C00E68EBF /* MediumBanner */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD13B2C50017C00E68EBF /* MediumBannerView.swift */,
+			);
+			path = MediumBanner;
+			sourceTree = "<group>";
+		};
+		EF6FD13C2C50017C00E68EBF /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD13D2C50017C00E68EBF /* Carousel.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		EF6FD13E2C50017C00E68EBF /* MediumItem */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD13F2C50017C00E68EBF /* MediumItemCellViewModel.swift */,
+				EF6FD1402C50017C00E68EBF /* MediumItemCell.swift */,
+			);
+			path = MediumItem;
+			sourceTree = "<group>";
+		};
+		EF6FD1412C50017C00E68EBF /* SmallItemsCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD1422C50017C00E68EBF /* SmallItemCarousel.swift */,
+				EF6FD1432C50017C00E68EBF /* SmallItemsGridView.swift */,
+			);
+			path = SmallItemsCarousel;
+			sourceTree = "<group>";
+		};
+		EF6FD1442C50017C00E68EBF /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD1452C50017C00E68EBF /* MediumItemList.swift */,
+				EF6FD1462C50017C00E68EBF /* MediumItemListViewModel.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		EF6FD1472C50017C00E68EBF /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD1482C50017C00E68EBF /* SmallItem */,
+				EF6FD14B2C50017C00E68EBF /* ProductViewModel.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		EF6FD1482C50017C00E68EBF /* SmallItem */ = {
+			isa = PBXGroup;
+			children = (
+				EF6FD1492C50017C00E68EBF /* SmallItemView.swift */,
+				EF6FD14A2C50017C00E68EBF /* SmallItemViewModel.swift */,
+			);
+			path = SmallItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6FD0D82C4FF04300E68EBF /* BeautyMNL-June */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6FD1032C4FF04500E68EBF /* Build configuration list for PBXNativeTarget "BeautyMNL-June" */;
+			buildPhases = (
+				271E7E2A53FFBEC839AAE629 /* [CP] Check Pods Manifest.lock */,
+				EF6FD0D52C4FF04300E68EBF /* Sources */,
+				EF6FD0D62C4FF04300E68EBF /* Frameworks */,
+				EF6FD0D72C4FF04300E68EBF /* Resources */,
+				DD8CAACC821896B67691B3CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeautyMNL-June";
+			productName = "BeautyMNL-June";
+			productReference = EF6FD0D92C4FF04300E68EBF /* BeautyMNL-June.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF6FD0EE2C4FF04500E68EBF /* BeautyMNL-JuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6FD1062C4FF04500E68EBF /* Build configuration list for PBXNativeTarget "BeautyMNL-JuneTests" */;
+			buildPhases = (
+				5BE1DD6EDE515BBB52A748CD /* [CP] Check Pods Manifest.lock */,
+				EF6FD0EB2C4FF04500E68EBF /* Sources */,
+				EF6FD0EC2C4FF04500E68EBF /* Frameworks */,
+				EF6FD0ED2C4FF04500E68EBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6FD0F12C4FF04500E68EBF /* PBXTargetDependency */,
+			);
+			name = "BeautyMNL-JuneTests";
+			productName = "BeautyMNL-JuneTests";
+			productReference = EF6FD0EF2C4FF04500E68EBF /* BeautyMNL-JuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF6FD0F82C4FF04500E68EBF /* BeautyMNL-JuneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6FD1092C4FF04500E68EBF /* Build configuration list for PBXNativeTarget "BeautyMNL-JuneUITests" */;
+			buildPhases = (
+				2598ED82D30D597C5181A068 /* [CP] Check Pods Manifest.lock */,
+				EF6FD0F52C4FF04500E68EBF /* Sources */,
+				EF6FD0F62C4FF04500E68EBF /* Frameworks */,
+				EF6FD0F72C4FF04500E68EBF /* Resources */,
+				5465F55B2B3342034FFF237B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6FD0FB2C4FF04500E68EBF /* PBXTargetDependency */,
+			);
+			name = "BeautyMNL-JuneUITests";
+			productName = "BeautyMNL-JuneUITests";
+			productReference = EF6FD0F92C4FF04500E68EBF /* BeautyMNL-JuneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6FD0D12C4FF04300E68EBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EF6FD0D82C4FF04300E68EBF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EF6FD0EE2C4FF04500E68EBF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EF6FD0D82C4FF04300E68EBF;
+					};
+					EF6FD0F82C4FF04500E68EBF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EF6FD0D82C4FF04300E68EBF;
+					};
+				};
+			};
+			buildConfigurationList = EF6FD0D42C4FF04300E68EBF /* Build configuration list for PBXProject "BeautyMNL-June" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6FD0D02C4FF04300E68EBF;
+			productRefGroup = EF6FD0DA2C4FF04300E68EBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6FD0D82C4FF04300E68EBF /* BeautyMNL-June */,
+				EF6FD0EE2C4FF04500E68EBF /* BeautyMNL-JuneTests */,
+				EF6FD0F82C4FF04500E68EBF /* BeautyMNL-JuneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6FD0D72C4FF04300E68EBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6FD0E92C4FF04500E68EBF /* LaunchScreen.storyboard in Resources */,
+				EF6FD0E62C4FF04500E68EBF /* Assets.xcassets in Resources */,
+				EF6FD0E42C4FF04300E68EBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6FD0ED2C4FF04500E68EBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6FD0F72C4FF04500E68EBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2598ED82D30D597C5181A068 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeautyMNL-June-BeautyMNL-JuneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		271E7E2A53FFBEC839AAE629 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeautyMNL-June-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5465F55B2B3342034FFF237B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeautyMNL-June-BeautyMNL-JuneUITests/Pods-BeautyMNL-June-BeautyMNL-JuneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeautyMNL-June-BeautyMNL-JuneUITests/Pods-BeautyMNL-June-BeautyMNL-JuneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeautyMNL-June-BeautyMNL-JuneUITests/Pods-BeautyMNL-June-BeautyMNL-JuneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BE1DD6EDE515BBB52A748CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeautyMNL-JuneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8CAACC821896B67691B3CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeautyMNL-June/Pods-BeautyMNL-June-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeautyMNL-June/Pods-BeautyMNL-June-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeautyMNL-June/Pods-BeautyMNL-June-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF6FD0D52C4FF04300E68EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6FD1572C50017C00E68EBF /* MediumItemCellViewModel.swift in Sources */,
+				EF6FD14F2C50017C00E68EBF /* CalloutCell.swift in Sources */,
+				EF6FD1552C50017C00E68EBF /* MediumBannerView.swift in Sources */,
+				EF6FD14D2C50017C00E68EBF /* PrimaryButton.swift in Sources */,
+				EF6FD1502C50017C00E68EBF /* CalloutListViewModel.swift in Sources */,
+				EF6FD1542C50017C00E68EBF /* PageIndicator.swift in Sources */,
+				EF6FD0E12C4FF04300E68EBF /* ViewController.swift in Sources */,
+				EF6FD11C2C4FFDD000E68EBF /* StackViewBuilder.swift in Sources */,
+				EF6FD1592C50017C00E68EBF /* SmallItemCarousel.swift in Sources */,
+				EF6FD1532C50017C00E68EBF /* PageIndicatorViewModel.swift in Sources */,
+				EF6FD1292C4FFE7F00E68EBF /* MockProvider.swift in Sources */,
+				EF6FD15E2C50017C00E68EBF /* SmallItemViewModel.swift in Sources */,
+				EF6FD10E2C4FF52300E68EBF /* AppColor.swift in Sources */,
+				EF6FD1152C4FFB5600E68EBF /* Array.swift in Sources */,
+				EF6FD15F2C50017C00E68EBF /* ProductViewModel.swift in Sources */,
+				EF6FD1252C4FFE6700E68EBF /* Sale.swift in Sources */,
+				EF6FD15A2C50017C00E68EBF /* SmallItemsGridView.swift in Sources */,
+				EF6FD0DD2C4FF04300E68EBF /* AppDelegate.swift in Sources */,
+				EF6FD1582C50017C00E68EBF /* MediumItemCell.swift in Sources */,
+				EF6FD0DF2C4FF04300E68EBF /* SceneDelegate.swift in Sources */,
+				EF6FD11E2C4FFDF700E68EBF /* UIView+Layout.swift in Sources */,
+				EF6FD1512C50017C00E68EBF /* CalloutList.swift in Sources */,
+				EF6FD1172C4FFCBF00E68EBF /* UILabel+Font.swift in Sources */,
+				EF6FD15D2C50017C00E68EBF /* SmallItemView.swift in Sources */,
+				EF6FD15C2C50017C00E68EBF /* MediumItemListViewModel.swift in Sources */,
+				EF6FD14E2C50017C00E68EBF /* CalloutCellViewModel.swift in Sources */,
+				EF6FD1192C4FFD5F00E68EBF /* NotificationBanner.swift in Sources */,
+				EF6FD14C2C50017C00E68EBF /* RatingView.swift in Sources */,
+				EF6FD1112C4FF59D00E68EBF /* UIColor.swift in Sources */,
+				EF6FD1272C4FFE7500E68EBF /* Category.swift in Sources */,
+				EF6FD1202C4FFE1900E68EBF /* MetricsProvider.swift in Sources */,
+				EF6FD15B2C50017C00E68EBF /* MediumItemList.swift in Sources */,
+				EF6FD1522C50017C00E68EBF /* HorizontalCollectionView.swift in Sources */,
+				EF6FD1562C50017C00E68EBF /* Carousel.swift in Sources */,
+				EF6FD1132C4FF7C000E68EBF /* AppImage.swift in Sources */,
+				EF6FD1232C4FFE4500E68EBF /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6FD0EB2C4FF04500E68EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6FD0F42C4FF04500E68EBF /* BeautyMNL_JuneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6FD0F52C4FF04500E68EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6FD1002C4FF04500E68EBF /* BeautyMNL_JuneUITestsLaunchTests.swift in Sources */,
+				EF6FD0FE2C4FF04500E68EBF /* BeautyMNL_JuneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF6FD0F12C4FF04500E68EBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6FD0D82C4FF04300E68EBF /* BeautyMNL-June */;
+			targetProxy = EF6FD0F02C4FF04500E68EBF /* PBXContainerItemProxy */;
+		};
+		EF6FD0FB2C4FF04500E68EBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6FD0D82C4FF04300E68EBF /* BeautyMNL-June */;
+			targetProxy = EF6FD0FA2C4FF04500E68EBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF6FD0E22C4FF04300E68EBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6FD0E32C4FF04300E68EBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF6FD0E72C4FF04500E68EBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6FD0E82C4FF04500E68EBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF6FD1012C4FF04500E68EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF6FD1022C4FF04500E68EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF6FD1042C4FF04500E68EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68934E38AAA9292837FA438C /* Pods-BeautyMNL-June.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YK859SUWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeautyMNL-June/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.codex.BeautyMNL-June";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF6FD1052C4FF04500E68EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2830C097B625DBEFE0284954 /* Pods-BeautyMNL-June.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YK859SUWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeautyMNL-June/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.codex.BeautyMNL-June";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF6FD1072C4FF04500E68EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867FA92F7CEE8DC0984D5ADD /* Pods-BeautyMNL-JuneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YK859SUWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.codex.BeautyMNL-JuneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautyMNL-June.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeautyMNL-June";
+			};
+			name = Debug;
+		};
+		EF6FD1082C4FF04500E68EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7BE6E0E1BB95AFE0CE3991 /* Pods-BeautyMNL-JuneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YK859SUWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.codex.BeautyMNL-JuneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautyMNL-June.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeautyMNL-June";
+			};
+			name = Release;
+		};
+		EF6FD10A2C4FF04500E68EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39D0E41BA6E78F822CD57F6 /* Pods-BeautyMNL-June-BeautyMNL-JuneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YK859SUWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.codex.BeautyMNL-JuneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BeautyMNL-June";
+			};
+			name = Debug;
+		};
+		EF6FD10B2C4FF04500E68EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03D20126F664957B0EF4458 /* Pods-BeautyMNL-June-BeautyMNL-JuneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3YK859SUWC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.codex.BeautyMNL-JuneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BeautyMNL-June";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF6FD0D42C4FF04300E68EBF /* Build configuration list for PBXProject "BeautyMNL-June" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6FD1012C4FF04500E68EBF /* Debug */,
+				EF6FD1022C4FF04500E68EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6FD1032C4FF04500E68EBF /* Build configuration list for PBXNativeTarget "BeautyMNL-June" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6FD1042C4FF04500E68EBF /* Debug */,
+				EF6FD1052C4FF04500E68EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6FD1062C4FF04500E68EBF /* Build configuration list for PBXNativeTarget "BeautyMNL-JuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6FD1072C4FF04500E68EBF /* Debug */,
+				EF6FD1082C4FF04500E68EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6FD1092C4FF04500E68EBF /* Build configuration list for PBXNativeTarget "BeautyMNL-JuneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6FD10A2C4FF04500E68EBF /* Debug */,
+				EF6FD10B2C4FF04500E68EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6FD0D12C4FF04300E68EBF /* Project object */;
+}
